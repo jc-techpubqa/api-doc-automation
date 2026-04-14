@@ -17,10 +17,10 @@ name: Validate, Build & Deploy API Docs
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
   workflow_dispatch:
 
 permissions:

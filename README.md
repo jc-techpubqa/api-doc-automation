@@ -1,6 +1,6 @@
 # CRM Order Management API – Documentation Automation
 
-This project demonstrates a **Docs-as-Code workflow** for API documentation. Every push to `main` automatically validates the OpenAPI spec, generates Markdown from it, builds a full documentation site, and deploys it live to GitHub Pages.
+This project demonstrates a **Docs-as-Code workflow** for API documentation. Every push to `master` automatically validates the OpenAPI spec, generates Markdown from it, builds a full documentation site, and deploys it live to GitHub Pages.
 
 ## Documentation
 
@@ -147,10 +147,10 @@ To push your local code to GitHub:
    git commit -m "Initial portfolio commit"
    ```
 
-3. Push to GitHub (main branch):
+3. Push to GitHub (master branch):
 
    ```sh
-   git push -u origin main
+   git push -u origin master
    ```
 
 4. Wait 30 seconds for files to sync on GitHub.
@@ -172,7 +172,7 @@ To trigger the CI/CD workflow that builds and deploys the docs:
 3. Click **Validate, Build & Deploy API Docs**.
 4. You should see past runs (if any).
 5. Click **Run workflow** (top right).
-6. Select **`main`** branch.
+6. Select **`master`** branch.
 7. Click **Run workflow**.
 8. Wait 3-5 minutes for all jobs to complete.
 
@@ -199,7 +199,7 @@ Once everything is set up, your site will be live at:
 
 ## CI/CD Pipeline
 
-The GitHub Actions workflow (`.github/workflows/deploy.yml`) runs on every push to `main`:
+The GitHub Actions workflow (`.github/workflows/deploy.yml`) runs on every push to `master`:
 
 | Job | What it does |
 |-----|--------------|
@@ -229,7 +229,7 @@ The **CRM Order Management API** is a RESTful API for managing customer orders.
 1. Update the `docs/openapi/v1/openapi.yaml` file.
 2. Run the `python scripts/generate_docs.py` script to regenerate Markdown.
 3. Run `mkdocs serve` to preview changes.
-4. Git commit and push to main → CI/CD pipeline auto-deploys.
+4. Git commit and push to master → CI/CD pipeline auto-deploys.
 
 **Edit documentation:**
 
@@ -250,7 +250,7 @@ The following sections cover common issues you may encounter when setting up or 
 
 **Issue:** Unable to trigger workflow, or workflow does not appear in **Actions** tab. You might not have pushed `.github/workflows/deploy.yml` to GitHub yet.
 
-**Resolution:** Try: `git push -u origin main` again. Wait 30 seconds and refresh the **Actions** tab.
+**Resolution:** Try: `git push -u origin master` again. Wait 30 seconds and refresh the **Actions** tab.
 
 ### Issue: Workflow failed
 

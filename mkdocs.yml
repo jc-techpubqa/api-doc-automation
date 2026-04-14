@@ -1,10 +1,10 @@
 site_name: CRM Order Management API
 site_description: Complete API documentation for the CRM Order Management system – built with Docs-as-Code, OpenAPI, and automated CI/CD.
 site_author: Jayshree Chatterjee
-site_url: https://<username>/api-doc-automation/
+site_url: https://jc-techpubqa.github.io/api-doc-automation/
 
 repo_name: api-doc-automation
-repo_url: https://github.com/username/api-doc-automation
+repo_url: https://jc-techpubqa.github.io/api-doc-automation/
 edit_uri: edit/main/docs/
 
 theme:
