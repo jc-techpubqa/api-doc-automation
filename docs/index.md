@@ -18,11 +18,11 @@ The Order Management API is a RESTful API that follows OpenAPI 3.0 standards. It
 
 ## Purpose
 
-*   **Create orders** — Submit a new customer order with product and quantity details.
-*   **List orders** — Retrieve a paginated list of all orders, with optional status filtering.
-*   **Get an order** — Retrieve full details of a specific order by its ID.
-*   **Update an order** — Modify order fields such as status, quantity, or price.
-*   **Delete an order** — Permanently remove an order from the system.
+*   **Create orders** – Submit a new customer order with product and quantity details.
+*   **List orders** – Retrieve a paginated list of all orders, with optional status filtering.
+*   **Get an order** – Retrieve full details of a specific order by its ID.
+*   **Update an order** – Modify order fields such as status, quantity, or price.
+*   **Delete an order** – Permanently remove an order from the system.
 
 ## Order Lifecycle
 

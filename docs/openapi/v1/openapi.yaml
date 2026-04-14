@@ -19,13 +19,13 @@ info:
     Requests are limited to **100 per minute** per API key. Exceeding this limit returns a `429 Too Many Requests` response.
   contact:
     name: API Support
-    email: api-support@example.com  # Replace with your actual email domain
+    email: api-support@example.com  # Replace with actual email domain
   license:
     name: MIT
     url: https://opensource.org/licenses/MIT
 
 servers:
-  - url: https://api.example.com/v1  # Replace 'example.com' with your actual domain
+  - url: https://api.example.com/v1  # Replace 'example.com' with actual domain
     description: Production server
   - url: http://localhost:8000/v1
     description: "Local development server (default: port 8000)"

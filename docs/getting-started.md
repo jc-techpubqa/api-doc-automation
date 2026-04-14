@@ -113,7 +113,7 @@ curl -X POST "https://api.example.com/v1/orders" \
 
 ## Explore the Interactive Reference
 
-Use the [Swagger UI](swagger-ui/index.html) to browse all endpoints interactively, try out requests, and inspect request and response schemas directly in your browser — no additional tooling required.
+Use the [Swagger UI](swagger-ui/index.html) to browse all endpoints interactively, try out requests, and inspect request and response schemas directly in your browser – no additional tooling required.
 
 ## Advanced Examples
 
@@ -130,9 +130,9 @@ curl -X GET "https://api.example.com/v1/orders?status=SHIPPED&page=1&pageSize=50
 
 **Query parameters:**
 
-*   `status` — Filter by order status (CREATED, PROCESSING, SHIPPED, DELIVERED, CANCELLED)
-*   `page` — Page number (default: 1)
-*   `pageSize` — Results per page (default: 20, maximum: 100)
+*   `status` – Filter by order status (CREATED, PROCESSING, SHIPPED, DELIVERED, CANCELLED)
+*   `page` – Page number (default: 1)
+*   `pageSize` – Results per page (default: 20, maximum: 100)
 
 ### Search Orders with Advanced Filters
 

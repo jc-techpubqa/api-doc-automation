@@ -1,4 +1,4 @@
-# CRM Order Management API — Documentation Automation
+# CRM Order Management API – Documentation Automation
 
 This project demonstrates a **Docs-as-Code workflow** for API documentation. Every push to `main` automatically validates the OpenAPI spec, generates Markdown from it, builds a full documentation site, and deploys it live to GitHub Pages.
 
@@ -8,10 +8,8 @@ This project demonstrates a **Docs-as-Code workflow** for API documentation. Eve
 
 | View | Link | Format |
 |------|------|--------|
-| **Live Documentation Portal** | [API Documentation](https://<GitHub domain>/api-doc-automation/) | Full styled site with dark mode, search |
-| **Generated API Reference** (Markdown) | [docs/generated-api-doc.md](docs/generated-api-doc.md) | GitHub-rendered markdown |
-| **OpenAPI Specification** | [docs/openapi/v1/openapi.yaml](docs/openapi/v1/openapi.yaml) | Raw YAML spec |
-| **Interactive Swagger UI** (on live site) | [Swagger UI](https://<GitHub domain>/api-doc-automation/swagger-ui/) | Try-it-out interface |
+| **Live Documentation Portal** | [API Documentation](https://jc-techpubqa.github.io/api-doc-automation/) | Full styled site with dark mode, search |
+| **Interactive Swagger UI** (on live site) | [Swagger UI](https://jc-techpubqa.github.io/api-doc-automation/swagger-ui/) | Try-it-out interface |
 
 > **How it works:** The `docs/generated-api-doc.md` file is auto-generated from the OpenAPI spec via Python script (`scripts/generate_docs.py`). GitHub renders it as Markdown, and the live site serves the same content with full styling.
 
@@ -25,8 +23,8 @@ This project showcases the skills and tools used by modern technical writers bui
 | Docs-as-Code | Markdown, Git-based authoring workflow |
 | Documentation automation | Python script generating Markdown from OpenAPI spec |
 | OpenAPI validation | Spectral linting with custom ruleset |
-| Documentation portal | MkDocs Material — navigation, search, dark mode, code copy |
-| CI/CD pipeline | GitHub Actions — validate → generate → build → deploy |
+| Documentation portal | MkDocs Material – navigation, search, dark mode, code copy |
+| CI/CD pipeline | GitHub Actions – validate → generate → build → deploy |
 | Hosting | GitHub Pages (live, auto-deployed on push) |
 | Interactive reference | Swagger UI with authentication support |
 
@@ -58,7 +56,7 @@ api-doc-automation/
 │       └── deploy.yml          # CI/CD: validate → generate → build → deploy
 │
 ├── docs/
-│   ├── index.md                      # Home page — overview and quick links
+│   ├── index.md                      # Home page – overview and quick links
 │   ├── getting-started.md            # Setup guide
 │   ├── authentication.md             # API key auth, rate limits, best practices
 │   ├── generated-api-doc.md          # Full endpoint reference (auto-generated)
@@ -163,7 +161,7 @@ To verify the GitHub Actions workflow file is present:
 
 1. Go to your repository on GitHub.
 2. Navigate to `.github/workflows/deploy.yml` to verify the file is there.
-3. If not, the push didn't work — try pushing again.
+3. If not, the push didn't work – try pushing again.
 
 ### Run the Workflow
 
@@ -196,8 +194,8 @@ To configure GitHub Pages to serve your documentation:
 
 Once everything is set up, your site will be live at:
 
-**https://<GitHub domain>/api-doc-automation/**
-**Swagger UI:** https://<GitHub domain>/api-doc-automation/swagger-ui/
+*   **API Documentation** `https://<GitHub domain>/api-doc-automation/`
+*   **Swagger UI:** `https://<GitHub domain>/api-doc-automation/swagger-ui/`
 
 ## CI/CD Pipeline
 
@@ -223,9 +221,6 @@ The **CRM Order Management API** is a RESTful API for managing customer orders.
 | `DELETE` | `/orders/{orderId}` | Delete an order |
 | `POST` | `/orders/search` | Search orders with advanced filters |
 | `PATCH` | `/orders/bulk-update` | Update status for multiple orders |
-
-**Authentication:** API key via `X-API-Key` header
-**Rate limit:** 100 requests/minute per key
 
 ### Project Workflows
 

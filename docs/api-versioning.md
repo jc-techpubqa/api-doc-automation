@@ -82,7 +82,7 @@ Breaking changes? → MAJOR (2.0.0)
 1.  Update `docs/changelog.md`:
 
     ```markdown
-    ## [1.1.0] — YYYY-MM-DD
+    ## [1.1.0] – YYYY-MM-DD
 
     ### Added
     - New `/orders/export` endpoint for bulk order export
@@ -160,7 +160,7 @@ Each version would have:
 
 ### For Each Release
 
-1. **GitHub Release Notes** — What changed, why, migration instructions
-2. **Changelog** — Detailed list of all changes
-3. **Blog post** (future) — Major features and improvements
-4. **Email notification** (future) — Alert registered API users
+1. **GitHub Release Notes** – What changed, why, migration instructions
+2. **Changelog** – Detailed list of all changes
+3. **Blog post** (future) – Major features and improvements
+4. **Email notification** (future) – Alert registered API users

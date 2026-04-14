@@ -1,5 +1,5 @@
 site_name: CRM Order Management API
-site_description: Complete API documentation for the CRM Order Management system — built with Docs-as-Code, OpenAPI, and automated CI/CD.
+site_description: Complete API documentation for the CRM Order Management system – built with Docs-as-Code, OpenAPI, and automated CI/CD.
 site_author: Jayshree Chatterjee
 site_url: https://<username>/api-doc-automation/
 

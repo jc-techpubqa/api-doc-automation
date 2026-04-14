@@ -6,7 +6,7 @@ Check [](http://keepachangelog.com/) for recommendations on how to format and st
 
 This project follows [Semantic Versioning](https://semver.org/).
 
-## [1.0.0] — 2026-04-14
+## [1.0.0] – 2026-04-14
 
 ### Added
 
@@ -14,15 +14,15 @@ This is the **Initial release** of the CRM Order Management API.
 
 *   Full CRUD support for orders:
 
-    *   `POST /orders` — Create a new order
-    *   `GET /orders` — List all orders with pagination and status filtering
-    *   `GET /orders/{orderId}` — Retrieve a single order by ID
-    *   `PUT /orders/{orderId}` — Update order fields
-    *   `DELETE /orders/{orderId}` — Delete an order
+    *   `POST /orders` – Create a new order
+    *   `GET /orders` – List all orders with pagination and status filtering
+    *   `GET /orders/{orderId}` – Retrieve a single order by ID
+    *   `PUT /orders/{orderId}` – Update order fields
+    *   `DELETE /orders/{orderId}` – Delete an order
 
-*   Search orders `POST /orders/search` — Search orders by criteria.
+*   Search orders `POST /orders/search` – Search orders by criteria.
 
-*   Bulk update `PATCH /orders/bulk-update` — Update status for multiple orders.
+*   Bulk update `PATCH /orders/bulk-update` – Update status for multiple orders.
 
 *   OpenAPI 3.0.3 specification with full schema definitions, examples, and `$ref` reuse.
 
