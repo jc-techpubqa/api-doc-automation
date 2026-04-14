@@ -299,8 +299,8 @@ For more error scenarios, see [Error Handling](error-handling.md).
 1.  Clone the repository
 
     ```sh
-    git clone https://github.com/your-username/order-management-automation.git
-    cd order-management-automation
+    git clone https://github.com/your-username/api-doc-automation.git
+    cd api-doc-automation
     ```
 
 1.  Install dependencies
