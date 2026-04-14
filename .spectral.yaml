@@ -1,0 +1,42 @@
+extends:
+  - spectral:oas
+
+rules:
+  # Enforce operation IDs on all endpoints
+  operation-operationId: error
+
+  # Require descriptions on all operations
+  operation-description: error
+
+  # Require tags on all operations
+  operation-tags: error
+
+  # Require summary on all operations
+  operation-summary: error
+
+  # Require contact info in info block
+  info-contact: error
+
+  # Require license in info block
+  info-license: error
+
+  # Enforce all response bodies have examples
+  oas3-valid-media-example: error
+
+  # Require all parameters to have descriptions
+  parameter-description:
+    message: Parameter "{{property}}" must have a description.
+    given: $.paths[*][*].parameters[*]
+    severity: warn
+    then:
+      field: description
+      function: truthy
+
+  # Require all schema properties to have descriptions
+  schema-properties-descriptions:
+    message: Schema property "{{property}}" should have a description.
+    given: $.components.schemas[*].properties[*]
+    severity: warn
+    then:
+      field: description
+      function: truthy

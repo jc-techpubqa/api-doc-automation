@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# MkDocs build output
+site/
+
+# Generated docs (rebuilt by CI)
+docs/generated-api-doc.md
+
+# Node
+node_modules/
