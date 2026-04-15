@@ -6,10 +6,9 @@ This project demonstrates a **Docs-as-Code workflow** for API documentation. Eve
 
 **No setup required!** View the generated API documentation in any of these ways:
 
-| View | Link | Format |
-|------|------|--------|
-| **Live Documentation Portal** | [API Documentation](https://jc-techpubqa.github.io/api-doc-automation/) | Full styled site with dark mode, search |
-| **Interactive Swagger UI** (on live site) | [Swagger UI](https://jc-techpubqa.github.io/api-doc-automation/swagger-ui/) | Try-it-out interface |
+| View | Link |
+|------|------|
+| **Live Documentation Portal** | [API Documentation](https://jc-techpubqa.github.io/api-doc-automation/) |
 
 > **How it works:** The `docs/generated-api-doc.md` file is auto-generated from the OpenAPI spec via Python script (`scripts/generate_docs.py`). GitHub renders it as Markdown, and the live site serves the same content with full styling.
 
